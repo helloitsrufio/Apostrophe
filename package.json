@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "SET APOS_MONGODB_URI='mongodb://appland-user:WYguYXhV6BH59ZNM@appland-shard-00-00.ucblf.mongodb.net:27017,appland-shard-00-01.ucblf.mongodb.net:27017,appland-shard-00-02.ucblf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-fcc9ee-shard-0&authSource=admin&retryWrites=true&w=majority' && node app",
-    "dev": "SET APOS_MONGODB_URI='mongodb://appland-user:WYguYXhV6BH59ZNM@appland-shard-00-00.ucblf.mongodb.net:27017,appland-shard-00-01.ucblf.mongodb.net:27017,appland-shard-00-02.ucblf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-fcc9ee-shard-0&authSource=admin&retryWrites=true&w=majority' && nodemon",
+    "dev": "SET APOS_MONGODB_URI='mongodb://appland-user:WYguYXhV6BH59ZNM@appland-shard-00-00.ucblf.mongodb.net:27017,appland-shard-00-01.ucblf.mongodb.net:27017,appland-shard-00-02.ucblf.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-fcc9ee-shard-0&authSource=admin&retryWrites=true&w=majority' && npx appmap-agent-js -- nodemon",
     "build": "NODE_ENV=production node app @apostrophecms/asset:build",
     "serve": "NODE_ENV=production node app",
     "release": "npm install && npm run build && node app @apostrophecms/migration:migrate"

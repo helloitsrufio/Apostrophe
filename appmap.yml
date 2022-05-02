@@ -1,11 +1,12 @@
 name: apostrophe
 packages:
-  - path: \apos-frontend\default
-  - path: uild\default
-  - path: ""
-  - path: s\@apostrophecms\asset
-  - path: s\@apostrophecms\express
-  - path: s\@apostrophecms\home-page
-  - path: s\@apostrophecms\page
-  - path: s\asset
-  - path: s\default-page
+  # - path: \apos-frontend\default
+  # - path: uild\default
+  # - path: ""
+  # - path: s\@apostrophecms\asset
+  # - path: s\@apostrophecms\express
+  # - path: s\@apostrophecms\home-page
+  # - path: s\@apostrophecms\page
+  # - path: s\asset
+  # - path: s\default-page
+  - path: node_modules/apostrophe/
